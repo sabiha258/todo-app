@@ -1,8 +1,8 @@
 // todo.test.js - Automated tests for the To-Do API
 
 const request = require('supertest');
-const app = require('../src/App');
-const { resetTodos } = require('../src/TodoService');
+const app = require('../src/app');
+const { resetTodos } = require('../src/todoService');
 
 beforeEach(() => resetTodos());
 
