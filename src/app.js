@@ -1,7 +1,7 @@
 // app.js - Main Express application
 
 const express = require('express');
-const todoService = require('./TodoService');
+const todoService = require('./todoService');
 
 const app = express();
 app.use(express.json());
