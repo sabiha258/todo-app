@@ -31,10 +31,10 @@ jobs:
           cache: 'npm'
 
       - name: 📦 Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: 🧪 Run Tests
-        run: npm test
+        run: npx jest --coverage
 
       - name: 📊 Upload Coverage Report
         uses: actions/upload-artifact@v4
