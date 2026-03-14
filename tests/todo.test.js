@@ -2,7 +2,7 @@
 
 const request = require('supertest');
 const app = require('../src/App');
-const { resetTodos } = require('../src/Todoservice');
+const { resetTodos } = require('../src/TodoService');
 
 beforeEach(() => resetTodos());
 
